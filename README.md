@@ -12,7 +12,7 @@ JunOS-Templates
         └── snmp.j2
 
 ## Setup ##
-sudo pip install -r requirements.txt
+`sudo pip install -r requirements.txt`
 
 ## Run ##
-python junos_template_gen.py
+`python junos_template_gen.py`
