@@ -5,5 +5,4 @@ Repo for playing with JunOS based configuration files to be templated with Jinja
     ├── README.md
     ├── base_config.txt
     └── requirements.txt
-
-1 directory, 3 files
+    
