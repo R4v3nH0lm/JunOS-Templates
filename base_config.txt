@@ -67,6 +67,7 @@ interfaces {
         }
     }
 }
+{%include "snmp.j2"%}
 security {
     forwarding-options {
         family {
