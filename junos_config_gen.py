@@ -16,7 +16,7 @@ def GenerateConfig(ConfigVariables):
 	print template.render(ConfigVariables)
 
 def LoadYamlFile():
-	with open('templates/snmp.yaml') as _:
+	with open('templates/variables.yaml') as _:
 		ConfigVariables = yaml.load(_)
 		GenerateConfig(ConfigVariables)
 
