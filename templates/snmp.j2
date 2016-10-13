@@ -1,0 +1,19 @@
+snmp { 
+    location "{{ location.snmp.location }}"; 
+    contact "{{ location.snmp.contact }}";
+    {% for snmp in location.snmp.polling %}
+    community {{ snmp.community }} { 
+        authorization read-only; 
+        clients {
+            {{ snmp.clients }};
+        }
+    }
+    {% endfor %}
+    {% for snmp in location.snmp.traps %}
+    trap-group {{ snmp.group_name }} { 
+        targets { 
+            {{ snmp.target }};
+        }
+    }
+    {% endfor %}
+}
