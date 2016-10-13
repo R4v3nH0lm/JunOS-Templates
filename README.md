@@ -8,8 +8,7 @@ Repo for playing with JunOS based configuration files to be templated with Jinja
 `python junos_template_gen.py`
 
 ## Tree ##
-JunOS-Templates
-
+	JunOS-Templates
 	├── README.md
 	├── junos_config_gen.py
 	├── requirements.txt
