@@ -10,9 +10,10 @@ Repo for playing with JunOS based configuration files to be templated with Jinja
 ## Tree ##
 	JunOS-Templates
 	├── README.md
+	├── base_config.txt
 	├── junos_config_gen.py
 	├── requirements.txt
 	└── templates
 	    ├── base_config.txt
 	    ├── snmp.j2
-	    └── snmp.yaml
+	    └── variables.yaml
